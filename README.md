@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Uint8ClampedVector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-uint8c@deno/mod.js';
+import Uint8ClampedVector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-uint8c@v0.1.1-deno/mod.js';
 ```
 
 #### Uint8ClampedVector( \[options] )
@@ -156,7 +156,7 @@ var len3 = numel( arr3 );
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import sum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-sum@deno/mod.js';
 import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-map@deno/mod.js';
-import Uint8ClampedVector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-uint8c@deno/mod.js';
+import Uint8ClampedVector from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-vector-uint8c@v0.1.1-deno/mod.js';
 
 // Create a vector containing random values:
 var x = new Uint8ClampedVector( discreteUniform( 10, 0, 100 ) );
